@@ -33,12 +33,6 @@ The implementation is [here](https://github.com/maudzung/SFA3D/tree/ea0222c1b354
 
 The instructions for setting up a virtual environment is [here](https://github.com/maudzung/virtual_environment_python3).
 
-```shell script
-git clone https://github.com/maudzung/SFA3D.git SFA3D
-cd SFA3D/
-pip install -r requirements.txt
-```
-
 ### 2.2. Data Preparation
 Download the 3D KITTI detection dataset from [here](http://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d).
 
@@ -120,23 +114,6 @@ tensorboard --logdir=./
 - Then go to [http://localhost:6006/](http://localhost:6006/)
 
 
-## Contact
-
-If you think this work is useful, please give me a star! <br>
-If you find any errors or have any suggestions, please contact me (**Email:** `nguyenmaudung93.kstn@gmail.com`). <br>
-Thank you!
-
-
-## Citation
-
-```bash
-@misc{Super-Fast-Accurate-3D-Object-Detection-PyTorch,
-  author =       {Nguyen Mau Dung},
-  title =        {{Super-Fast-Accurate-3D-Object-Detection-PyTorch}},
-  howpublished = {\url{https://github.com/maudzung/Super-Fast-Accurate-3D-Object-Detection}},
-  year =         {2020}
-}
-```
 
 ## References
 
